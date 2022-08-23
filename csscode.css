@@ -1,0 +1,147 @@
+*{min-width: 300px; max-width: 2000px;}
+body{
+	background: hsl(240, 50%, 5%);
+	color: #fff;
+	padding: 25px;
+	font-family: sans-serif;
+  }
+
+.topa{box-sizing: border-box; border: 1px solid white; background-color: hsl(240, 50%, 5%); padding: 22px; position: fixed; width: 100%;
+	border: 1px solid hsl(240, 50%, 5%); text-align: right; top: 0; left: 0;
+}
+
+.topa a[href*='./home.html']{border-radius: 3px; background-size: 7px; color: white; 		
+	padding: 15px; font-weight: bold; text-decoration: none; font-size: 20px;
+}
+
+.topa a[href*='./start-a-project.html']{border: 1px solid yellow; background-color: yellow; border-radius: 3px; background-size: 7px; 
+	color: black; padding: 15px; font-weight: bold; text-decoration: none; font-size: 20px;}
+
+.topa a[href*='./start-a-project.html']:hover{opacity: 0.7;
+}
+
+.topa a[href*="./say-hi.html"]{border-radius: 3px; background-size: 7px; color: white; 		
+	padding: 15px; font-weight: bold; text-decoration: none; font-size: 20px;
+}
+
+.topa a[href*='./home.html']:hover{border: 2px solid blue; border-radius: 3px; 		
+	background-color: blue; background-size: 7px; color: white; padding: 15px;
+}
+
+.topa a[href*="./say-hi.html"]:hover{border: 2px solid blue; border-radius: 3px; 		
+	background-color: blue; background-size: 7px; color: white; padding: 15px;
+}
+
+.header-image{background-image: url("idb.jpg"); margin-top: 20px; margin-left: 0; padding-left: 0; padding-right: 0; margin-right: 0; 
+	color: black; background-repeat: no-repeat; height: 400px;
+}
+
+.header-image-text{text-align: center; padding: 50px; font-size: 35px;
+}
+
+.front-page-upper-body{font-size: 25px;
+}
+
+.see-more-box{background-color: hsl(250, 50%, 9%); height: 200px; margin: 5px auto; 
+}
+
+.see-more-box img[src*="ActionSmm Logo 1.png"] {width: 160px; height: 160px; border-radius: 2px;
+}
+
+/*See more box section*/
+.see-more-button-container{text-align: right;
+}
+.see-more-button{text-align: right; padding: 10px; text-decoration: none; color: blue; visibility: hidden;
+}
+
+.see-more-button[href*='seemore.html']:hover{text-decoration: underline; text-decoration-color: #fff;
+}
+
+/*Home page button section*/
+.home-button-container a[href*="./start-a-project.html"]{color: black;
+}
+
+.home-button-container{text-align: center; font-size: 30px; font-weight: bold;
+}
+
+.home-button{border: 2px solid yellow; background-color: yellow; padding:25px 105px; border-radius: 3px; text-decoration: none; 
+}
+
+/*End of Home page button section*/
+a[href]:link{text-decoration: none;
+}
+
+a[href]:visited{text-decoration: none; 
+}
+
+a[href]:hover{text-decoration: none;
+}
+
+a[href]:active{text-decoration: none;
+}
+
+/*end of home button section*/
+.faq{background: hsl(240, 90%, 9%); margin: 0;
+}
+
+.faq1{box-sizing: border-box; border: 1px solid darkslategray; border-left-color: hsl(240, 90%, 9%); 
+	border-right-color: hsl(240, 90%, 9%);
+}
+
+.faq2{box-sizing: border-box; border: 1px solid darkslategray; border-left-color: hsl(240, 90%, 9%); 
+	border-right-color: hsl(240, 90%, 9%); border-top-color: hsl(240, 90%, 9%);
+}
+
+.faq3{box-sizing: border-box; border: 1px solid darkslategray; border-left-color: hsl(240, 90%, 9%); 
+	border-right-color: hsl(240, 90%, 9%); border-top-color: hsl(240, 90%, 9%);
+}
+
+.faq4{box-sizing: border-box; border: 1px solid darkslategray; border-left-color: hsl(240, 90%, 9%); 
+	border-right-color: hsl(240, 90%, 9%); border-bottom-color: hsl(240, 90%, 9%); border-top-color: hsl(240, 90%, 9%);
+}
+
+/* General(all pages) sitemap styling) */
+.sitemap1{background: hsl(250, 50%, 9%); background-size: cover;
+	background-position: center; height: 150px; margin-top: 3px;
+}
+
+.sitemap-text{text-align: left; padding: 2px;
+}
+
+ul { list-style-type: none; 
+}
+
+.sitemap-text-2{text-align: center;
+}
+
+/* Email boxes should display red border when an incorrect email format has been written in them
+input[id*="email"]:invalid{border-color: rgb(255, 0, 0);
+}*/
+
+a[href*="./say-hi.html"]{color: #fff;
+}
+
+/*Start a project section*/
+.start-a-project-form{border: 3px solid whitesmoke; border-top-color: blue; background-color: whitesmoke; height: 350px; 
+	margin-top: 40px; margin-bottom: 10px; margin-left: auto; margin-right: auto; text-align: center; padding-top: 30px;
+}
+
+.start-a-project-text{border: 2px solid whitesmoke; border-left-color: black; border-right-color: black; font-weight: bold;
+}
+
+.start-a-project-button{background-color: blue; color: white; border: blue; padding: 4px; border-radius: 2px;
+}
+
+form{color: black;
+}
+
+/*Say hi page section*/
+.say-hi-text{color: white;
+}
+.say-hi-page-boxes{background-color: hsl(240, 50%, 5%); border-left-color: hsl(240, 50%, 5%); border-right-color: hsl(240, 50%, 5%); 
+border-top-color: hsl(240, 50%, 5%); border-bottom-color: white;}
+
+
+
+
+
