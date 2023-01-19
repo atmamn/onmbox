@@ -32,7 +32,7 @@ body{
 	background-color: blue; background-size: 7px; color: white; padding: 15px;
 }
 
-.header-image{background-image: url("idb.jpg"); margin-top: 20px; margin-left: 0; padding-left: 0; padding-right: 0; margin-right: 0; 
+.header-image{background-image: url("idb.jpg"); margin-left: 0; padding-left: 0; padding-right: 0; margin-right: 0; 
 	color: black; background-repeat: no-repeat; height: 400px; z-index: 99;
 }
 
