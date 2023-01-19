@@ -33,7 +33,7 @@ body{
 }
 
 .header-image{background-image: url("idb.jpg"); margin-top: 20px; margin-left: 0; padding-left: 0; padding-right: 0; margin-right: 0; 
-	color: black; background-repeat: no-repeat; height: 400px;
+	color: black; background-repeat: no-repeat; height: 400px; z-index: 99;
 }
 
 .header-image-text{text-align: center; padding: 50px; font-size: 35px;
